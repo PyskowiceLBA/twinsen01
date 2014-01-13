@@ -1,0 +1,6 @@
+<download name="twinsen01" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2835459" md5="5518dab1d3e52c4ea8cf8386a115457c"/>
+ </files>
+</download>
