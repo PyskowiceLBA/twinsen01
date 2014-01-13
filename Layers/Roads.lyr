@@ -1,0 +1,51 @@
+<ObjectLayer>
+ <Layer Name="Roads" GUID="{3E31C4B7-71BC-454E-B0EA-F8FD869673BA}" FullName="Roads" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects>
+   <Object Type="Entity" Layer="Roads" Id="{CF7DE10E-DB7F-4215-ACC8-4F5D8F3BF921}" Name="HMG1" Pos="983.99994,922.99988,105.99999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMG">
+    <Properties HitPoints="0" initialSetup="" bMounted="1" eiPhysicsType="0" bPickable="0" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+     <MountedLimits pitchMax="60" pitchMin="-22" yaw="70"/>
+     <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{E0E21223-5210-49C5-92AF-47A4FB04C8C0}" Name="Road6" Pos="1008.9999,918.99988,104.99999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/dirt_road_tracks" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="-4.3333335,-14.333334,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-13,-43,0" Back="-8.666667,-28.666668,0" Forw="-13,-43,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Entity" Layer="Roads" Id="{99B9D842-05A2-4AC7-A444-E78171175F10}" Name="AmmoCrate1" Pos="981.99994,922.99988,104.99999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AmmoCrate">
+    <Properties object_Ammo0Recharges="objects/weapons/ammo/ammo_crate/ammo_crate_small_open.cgf" object_Ammo1Recharges="objects/weapons/ammo/ammo_crate/magazine_rifle_x1.cgf" object_Ammo2Recharges="objects/weapons/ammo/ammo_crate/magazine_rifle_x2.cgf" object_Ammo3Recharges="objects/weapons/ammo/ammo_crate/magazine_rifle_x3.cgf" object_Ammo4Recharges="objects/weapons/ammo/ammo_crate/magazine_rifle_x4.cgf" object_BoxModel="objects/weapons/ammo/ammo_crate/ammo_crate_small_open.cgf" numberOfRecharges="0" bUsable="0" UseMessage="">
+     <Ammo AmmoCategory="Regular" FragGrenades="2"/>
+    </Properties>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{811DE04D-550A-4CBE-94D6-18305BD71FE0}" Name="Road7" Pos="1043.9999,855.99988,104.99999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/dirt_road_tracks" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="5.4625716,13.749575,0.033126272" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="17.000122,41.000122,0.1000061" Back="10.92878,27.508301,0.066274598" Forw="17.193569,41.430004,0.10108087" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="18.000122,40.000122,0.1000061" Back="17.768522,40.410709,0.10031472" Forw="18.000122,40.000122,0.1000061" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Entity" Layer="Roads" Id="{9838C27D-4B6C-4CB9-B8D6-50488C3AC1DA}" Name="HealthPack1" Pos="980.99994,922.99988,104.99999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack">
+    <Properties fHealth="500" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Brush" Layer="Roads" Id="{54F9D686-F901-44A1-A15A-7C381C07E058}" Name="camping_tent1" Pos="974,927,105" FloorNumber="-1" Rotate="0.4539904,0,0,0.89100659" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/fishing_camp/camping_tent.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{636133B1-89E7-4BB4-9BB4-93C3EFCFB675}" Name="Road4" Pos="987,882,105.1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/dirt_road_tracks" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="20,-7.6666665,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="60,-23,0" Back="40,-15.333333,0" Forw="60,-23,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Road" Layer="Roads" Id="{F3BB6DBE-0F5B-43C8-AE88-209E6ED7BBB9}" Name="Road5" Pos="998,921,105.1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Material="materials/roads/dirt_road_tracks" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0" IgnoreTerrainHoles="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="51.666626,-21.000042,-0.033335369" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="154.99988,-63.000122,-0.1000061" Back="103.33325,-42.000084,-0.066670738" Forw="154.99988,-63.000122,-0.1000061" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
